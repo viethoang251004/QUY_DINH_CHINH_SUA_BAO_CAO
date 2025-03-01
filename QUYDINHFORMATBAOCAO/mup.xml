@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MUPDefinition xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.dell.com/openmanage/cm/2/0/mupdefinition.xsd">
+  <packageinformation>
+    <installertype>mupinstaller</installertype>
+    <mupspecificationversion>3.0.0</mupspecificationversion>
+    <name>Intel(R) Dynamic Tuning Technology</name>
+    <packagegrouping>dch_package</packagegrouping>
+    <packagingtype>dch_inf_package</packagingtype>
+    <releasetype>DRVR</releasetype>
+    <subsystem>Chipset</subsystem>
+    <version>8.7.10802.26924</version>
+    <AppliesTo>
+      <DeviceInformation>TBD</DeviceInformation>
+    </AppliesTo>
+    <supportedoperatingsystems>
+      <osidentifier name="Windows10" architecture="x64" />
+    </supportedoperatingsystems>
+    <content dchSupport="true" baseOSBuildNumber="17134">
+      <DeviceGroup supportedOSBuildNumber="17134">
+        <Device componentID="102309">
+          <Generic>ACPI\INT3400</Generic>
+          <Generic>ACPI\INT3401</Generic>
+          <Generic>ACPI\INT3402</Generic>
+          <Generic>ACPI\INT3403</Generic>
+          <Generic>ACPI\INT3404</Generic>
+          <Generic>ACPI\INT3405</Generic>
+          <Generic>ACPI\INT3406</Generic>
+          <Generic>ACPI\INT3407</Generic>
+          <Generic>ACPI\INT3408</Generic>
+          <Generic>ACPI\INT3409</Generic>
+          <Generic>ACPI\INT340A</Generic>
+          <Generic>ACPI\INT340B</Generic>
+          <Generic>ACPI\INT340C</Generic>
+          <Generic>ACPI\INT340D</Generic>
+          <Generic>ACPI\INT343D</Generic>
+          <Generic>ACPI\INT3530</Generic>
+          <Generic>ACPI\INT3532</Generic>
+          <Generic>ACPI\INTC1040</Generic>
+          <Generic>ACPI\INTC1043</Generic>
+          <Generic>ACPI\INTC1044</Generic>
+          <Generic>ACPI\INTC1045</Generic>
+          <Generic>ACPI\INTC1047</Generic>
+          <Generic>ACPI\INTC1050</Generic>
+          <Image type="DRVR" inftype="base" version="8.7.10802.26924">
+            <file>17134\Drivers\x64\dptf_acpi.inf</file>
+            <supportedoperatingsystems>
+              <osidentifier name="Windows10.0" architecture="x64" buildNumber="17134" />
+            </supportedoperatingsystems>
+          </Image>
+        </Device>
+        <Device componentID="102309">
+          <PCIInfo vendorID="8086" deviceID="0103" />
+          <PCIInfo vendorID="8086" deviceID="0153" />
+          <PCIInfo vendorID="8086" deviceID="0C03" />
+          <PCIInfo vendorID="8086" deviceID="0A03" />
+          <PCIInfo vendorID="8086" deviceID="0D03" />
+          <PCIInfo vendorID="8086" deviceID="1603" />
+          <PCIInfo vendorID="8086" deviceID="1903" />
+          <PCIInfo vendorID="8086" deviceID="22DC" />
+          <PCIInfo vendorID="8086" deviceID="0A8C" />
+          <PCIInfo vendorID="8086" deviceID="1A8C" />
+          <PCIInfo vendorID="8086" deviceID="4A8C" />
+          <PCIInfo vendorID="8086" deviceID="5A8C" />
+          <PCIInfo vendorID="8086" deviceID="5A03" />
+          <PCIInfo vendorID="8086" deviceID="318C" />
+          <PCIInfo vendorID="8086" deviceID="8A03" />
+          <PCIInfo vendorID="8086" deviceID="9820" />
+          <PCIInfo vendorID="8086" deviceID="9A03" />
+          <PCIInfo vendorID="8086" deviceID="4C03" />
+          <PCIInfo vendorID="8086" deviceID="4E03" />
+          <Image type="DRVR" inftype="base" version="8.7.10802.26924">
+            <file>17134\Drivers\x64\dptf_cpu.inf</file>
+            <supportedoperatingsystems>
+              <osidentifier name="Windows10.0" architecture="x64" buildNumber="17134" />
+            </supportedoperatingsystems>
+          </Image>
+        </Device>
+      </DeviceGroup>
+    </content>
+  </packageinformation>
+</MUPDefinition>
